@@ -1,0 +1,182 @@
+header{
+  height:400px;
+  background:url(../../assets/img/photography_background.jpg) no-repeat center;
+  background-size:cover;
+}
+
+.navbar-nav{
+  margin-top:14px;
+}
+
+.navbar-nav .nav li{
+  height:50px;
+}
+
+.navbar-nav > li > a{
+  padding-top:8px;
+  padding-bottom:8px;
+  line-height:32px;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:#333;
+  font-weight:bold;
+  background-color:rgba(255,255,255,0.4);
+}
+
+.navbar-default .navbar-nav > li > a:hover .navbar-default .navbar-nav > li > a:focus{
+  color:#fff;
+  background-color:rgba(0,0,0,0.6);
+  font-weight:bold;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  color:#fff;
+  background-color:rgba(0,0,0,0.6);
+  font-weight:bold;
+}
+
+.navbar-toggle{
+  background-color:#fff !important;
+  box-shadow:1px 1px 2px rgba(0,0,0,0.4);
+  margin-top:20px;
+}
+
+nav.navbar.navbar-default{
+  background:none;
+  box-shadow:none;
+}
+
+.navbar-brand{
+  height:75px;
+  font-size:18px;
+  color:#fff !important;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.4);
+}
+
+.navbar-brand span.text-title{
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+@media (max-width:767px) {
+  .navbar-brand span.text-title{
+    display:none;
+  }
+}
+
+.navbar-brand .glyphicon{
+  display:inline-block;
+  font-size:36px;
+  color:#fff;
+  vertical-align:middle;
+  margin-right:20px;
+  position:relative;
+}
+
+@media (min-width:768px) {
+  .navbar-nav li{
+    margin-left:10px;
+  }
+}
+
+.categories{
+  text-align:center !important;
+  margin-bottom:20px;
+  border-bottom:1px solid #e4e4e4;
+  padding:10px;
+}
+
+.cartegories li{
+  display:inline-block !important;
+  float:none;
+}
+
+.post-body{
+  margin-top:30px;
+  font-size:16px;
+}
+
+@media (min-width:992px) {
+  .post-title{
+    text-align:right;
+    padding-right:30px;
+  }
+}
+
+.post-title .author{
+  text-transform:none;
+}
+
+.post-body figure{
+  margin-bottom:10px;
+  text-align:center;
+}
+
+.post-body .author span{
+  margin-left:5px;
+}
+
+.post-title h1{
+  font-weight:bold;
+  margin-top:30px;
+}
+
+@media (max-width:767px) {
+  .post-title h1{
+    margin-top:20px;
+  }
+}
+
+footer{
+  padding:20px;
+  text-align:center;
+  background-color:#333;
+  color:#fff;
+}
+
+footer h5{
+  color:inherit;
+}
+
+div.container.post{
+  margin-bottom:50px;
+}
+
+div.macbook-mockup{
+  position:relative;
+  max-width:1000px;
+  margin:20px;
+}
+
+.macbook-mockup img.device{
+  width:100%;
+  height:auto;
+}
+
+.macbook-mockup .screen{
+  position:absolute;
+  width:76%;
+  height:82.5%;
+  top:6.5%;
+  border-radius:4px;
+  left:12%;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url(../../assets/img/screen-content-macbook.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+.macbook-mockup .screen:before{
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-26%;
+  right:-39%;
+  transform:rotate(-19deg);
+  opacity:0.1;
+}
+
